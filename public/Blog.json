@@ -4,40 +4,40 @@
       "cover": ".././src/assets/images/1.jpg",
       "title": "The Future of AI",
       "author": "John Doe",
-      "author_img": "https://via.placeholder.com/100",
+      "author_img": ".././src/assets/images/boy1.png",
       "posted_date": "2025-02-10",
       "reading_time": 5,
-      "hashtags": ["#AI", "#Technology", "#Future"]
+      "hashtags": ["AI", "Technology", "Future"]
     },
     {
       "id": 2,
       "cover": ".././src/assets/images/2.png",
       "title": "Mastering JavaScript",
       "author": "Jane Smith",
-      "author_img": "https://via.placeholder.com/100",
+      "author_img": ".././src/assets/images/boy2.png",
       "posted_date": "2025-02-15",
       "reading_time": 8,
-      "hashtags": ["#JavaScript", "#Coding", "#WebDevelopment"]
+      "hashtags": ["JavaScript", "Coding", "WebDevelopment"]
     },
     {
       "id": 3,
       "cover": ".././src/assets/images/3.png",
       "title": "Exploring Space: A New Era",
       "author": "Michael Johnson",
-      "author_img": "https://via.placeholder.com/100",
+      "author_img": ".././src/assets/images/girl1.jpg",
       "posted_date": "2025-02-18",
       "reading_time": 6,
-      "hashtags": ["#Space", "#NASA", "#Science"]
+      "hashtags": ["Space", "NASA", "Science"]
     },
     {
       "id": 4,
       "cover": ".././src/assets/images/4.jpg",
       "title": "The Power of Minimalism",
       "author": "Emily Brown",
-      "author_img": "https://via.placeholder.com/100",
+      "author_img": ".././src/assets/images/girl2.jpg",
       "posted_date": "2025-02-20",
       "reading_time": 4,
-      "hashtags": ["#Minimalism", "#Lifestyle", "#Mindfulness"]
+      "hashtags": ["Minimalism", "Lifestyle", "Mindfulness"]
     }
     
   ]
