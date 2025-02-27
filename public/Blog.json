@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "cover": "https://via.placeholder.com/300",
+      "cover": ".././src/assets/images/1.jpg",
       "title": "The Future of AI",
       "author": "John Doe",
       "author_img": "https://via.placeholder.com/100",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "cover": "https://via.placeholder.com/300",
+      "cover": ".././src/assets/images/2.png",
       "title": "Mastering JavaScript",
       "author": "Jane Smith",
       "author_img": "https://via.placeholder.com/100",
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "cover": "https://via.placeholder.com/300",
+      "cover": ".././src/assets/images/3.png",
       "title": "Exploring Space: A New Era",
       "author": "Michael Johnson",
       "author_img": "https://via.placeholder.com/100",
@@ -31,23 +31,14 @@
     },
     {
       "id": 4,
-      "cover": "https://via.placeholder.com/300",
+      "cover": ".././src/assets/images/4.jpg",
       "title": "The Power of Minimalism",
       "author": "Emily Brown",
       "author_img": "https://via.placeholder.com/100",
       "posted_date": "2025-02-20",
       "reading_time": 4,
       "hashtags": ["#Minimalism", "#Lifestyle", "#Mindfulness"]
-    },
-    {
-      "id": 5,
-      "cover": "https://via.placeholder.com/300",
-      "title": "Cybersecurity in 2025",
-      "author": "Robert Wilson",
-      "author_img": "https://via.placeholder.com/100",
-      "posted_date": "2025-02-22",
-      "reading_time": 7,
-      "hashtags": ["#Cybersecurity", "#Tech", "#Privacy"]
     }
+    
   ]
   
