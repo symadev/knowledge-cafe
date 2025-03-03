@@ -6,7 +6,7 @@ import Blog from "../Blog/Blog";
 import PropTypes from 'prop-types';
 
 
-const Blogs = ({handleAddBookmark}) => {
+const Blogs = ({handleAddBookmark,handleMarkAsRead}) => {
     const[blogs, setBlogs] = useState([]);//just because the object inside the array thats why here must take the empty array
 
 
@@ -24,7 +24,7 @@ const Blogs = ({handleAddBookmark}) => {
             {
 
                 blogs.map(blog=> <Blog key= {blog.id} 
-                    blog={blog} handleAddBookmark={handleAddBookmark}></Blog>) 
+                    blog={blog}handleMarkAsRead={handleMarkAsRead} handleAddBookmark={handleAddBookmark}></Blog>) 
             }
         </div>
     );
@@ -32,7 +32,8 @@ const Blogs = ({handleAddBookmark}) => {
 //here add the single propstypes
 Blogs.propTypes = {
   
-   handleAddBookmark: PropTypes.func
+   handleAddBookmark: PropTypes.func,
+   handleMarkAsRead: PropTypes.func
  };
 
 export default Blogs;
