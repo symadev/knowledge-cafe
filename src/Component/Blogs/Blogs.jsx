@@ -3,6 +3,8 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../Blog/Blog";
+import PropTypes from 'prop-types';
+
 
 const Blogs = ({handleAddBookmark}) => {
     const[blogs, setBlogs] = useState([]);//just because the object inside the array thats why here must take the empty array
@@ -27,5 +29,10 @@ const Blogs = ({handleAddBookmark}) => {
         </div>
     );
 };
+//here add the single propstypes
+Blogs.propTypes = {
+  
+   handleAddBookmark: PropTypes.func
+ };
 
 export default Blogs;

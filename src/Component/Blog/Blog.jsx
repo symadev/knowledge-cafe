@@ -20,7 +20,8 @@ const Blog = ({blog, handleAddBookmark}) => {
               </div>
               <div>
               <span>{reading_time} min read</span>
-            <button  onClick ={handleAddBookmark} className='ml-2 text-sky-300'><FaBookmark></FaBookmark></button>
+            <button  onClick ={() =>handleAddBookmark(blog)} className='ml-2 text-sky-300'><FaBookmark></FaBookmark></button>
+            {/* whole blog k pathanor jonne and sathe arrow function o add korte hobe */}
               </div>
             </div>
             <h2 className="text-4xl">{title}</h2> 
@@ -36,7 +37,9 @@ const Blog = ({blog, handleAddBookmark}) => {
         </div>
     );
 };
+//here show all the propstypes
  Blog.propTypes = {
-   blog:PropTypes.object.isRequired
+   blog: PropTypes.object.isRequired,
+   handleAddBookmark: PropTypes.func
  };
 export default Blog;

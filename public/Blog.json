@@ -2,7 +2,7 @@
     {
       "id": 1,
       "cover": ".././src/assets/images/1.jpg",
-      "title": "The Future of AI",
+      "title": "Top TEn ES6 Feature You Must Know",
       "author": "John Doe",
       "author_img": ".././src/assets/images/boy1.png",
       "posted_date": "2025-02-10",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "cover": ".././src/assets/images/2.png",
-      "title": "Mastering JavaScript",
+      "title": "Mastering JavaScript With The Help OF Ai",
       "author": "Jane Smith",
       "author_img": ".././src/assets/images/boy2.png",
       "posted_date": "2025-02-15",
