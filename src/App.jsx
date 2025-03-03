@@ -8,18 +8,25 @@ import Header from './Component/Header/Header'
 function App() {
  
 const [bookmarks, setBookmarks] =useState([]);
-const [readingTime, setreadingTime] =useState([]);
+const [readingTime, setreadingTime] =useState(0);
 const handleAddBookmark =blog =>{
 const newBookmarks = [...bookmarks,blog];
 setBookmarks(newBookmarks);
 }
 
 
-const handleMarkAsRead =time =>{
+const handleMarkAsRead =(time, id) =>{
   const newreadingTime = readingTime+ time;
 
   setreadingTime(newreadingTime);
+
+//remove the rad blog from bookmark
+// console.log('remove bookmarks',id);
+const remainingBookmarks= bookmarks.filter(bookmark=>bookmark.id!== id);
+setBookmarks(remainingBookmarks);
+//problem------!
 }
+//this process is for amra jokhon mark as read korbo tokhon oi id ta chole jabe means remove hoye jabe
   return (
     <>
       
